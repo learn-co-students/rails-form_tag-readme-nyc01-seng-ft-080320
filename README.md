@@ -167,7 +167,7 @@ Capybara was able to fill in the form elements and click `Submit Post`, but we
 need to update the form tag with an `action` attribute:
 
 ```erb
-<form action="<%= posts_path %>">
+
 ```
 
 Now the form redirects to `/posts`. However, we also need to add a `method`
